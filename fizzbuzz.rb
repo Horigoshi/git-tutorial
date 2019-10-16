@@ -8,6 +8,8 @@ for i in 1..100 do
     puts "Fizz\n"
   elsif i%5 == 0
     puts "Buzz\n"
+  elsif i%7 == 0
+    puts "git\n"
   else
     print(i, "\n")
   end
